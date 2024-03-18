@@ -1,5 +1,10 @@
 module DevAgents
 
-# Write your package code here.
+using AnthropicAPI
+using JSON 
+
+include("filetools.jl")
+include("documenter.jl")
+
 
 end
